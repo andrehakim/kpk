@@ -50,25 +50,5 @@
 	  <script>
 
     </div>
-
-<script>
-  function closePopup() {
-    document.getElementById('popup-overlay').style.display = 'none';
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    const video = document.getElementById("video");
-    const popup = document.getElementById("popup-overlay");
-
-    video.addEventListener("play", function () {
-      setTimeout(function () {
-        video.pause();
-        popup.style.display = "flex";
-      }, 5000); // 1 detik
-    });
-  });
-</script>
-        
-    </div>
   </body>
 </html>
